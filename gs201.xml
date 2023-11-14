@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="tensor-dev"
+          fetch="https://github.com/Google-Exynos"
+          revision="fourteen" />
+
+  <!--Device tree-->
+  <project name="device_google_gs201-common" path="device/google/gs201-common" remote="tensor-dev"/>
+  <project name="device_google_panther" path="device/google/panther" remote="tensor-dev"/>
+
+  <!-- Kernel -->
+  <project name="kernel_google_gs201" path="kernel/google/gs201" remote="tensor-dev"/>
+
+</manifest>
